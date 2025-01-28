@@ -1,0 +1,8 @@
+body {
+    color: #f6f6f6;
+    background-color: black;
+}
+
+main h1 span {
+    color: blue;
+}
