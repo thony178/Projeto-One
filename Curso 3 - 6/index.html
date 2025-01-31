@@ -4,23 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>portfólio</title>
 </head> 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+          <a href="index.html" class="cabecalho-menu-link">HOME</a>
+          <a href="about.html" class="cabecalho-menu-link">sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao-conteudo">
                 <h1 class="apresentacao-conteudo-titulo">Este é meu <span class="titulo-destaque">portfólio</span></h1>
                 <p class="apresentacao-conteudo-texto">Olá! <strong class="destaque-nome">Sou Anthony Chagas Zatta</strong>, desenvolvedor Front-end com especialidade em React, HTML e CSS.</p>
             <div class="apresentacao-butao">
-                <a class="apresentacao-links" href="https://www.GitHub.com"><strong>GitHub</strong></a>
-                <a class="apresentacao-links" href="https://www.linkedin.com"><strong>Linkedln</strong></a>
+                <h2 class="apresentacao-link-subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao-links" href="https://www.GitHub.com">
+                    <img src="img/github.png" alt="ícone do GitHub">
+                    GitHub
+                </a>
+                <a class="apresentacao-links" href="https://www.linkedin.com">
+                    <img src="img/linkedin.png" alt="ícone do linkedin">
+                    Linkedln
+                </a>
             </div>
         </section>
-                <img src="img.anthony.jpg" alt="Foto do Anthony">
+                <img class="Foto" src="img/img.anthony.jpg" alt="Foto do Anthony">
     </main>
-    <footer></footer>
+    <footer class="rodape"> Desenvolvido por Anthony Chagas Zatta no Curso da Alura + Oracle</footer>
     
 </body>
 </html>
